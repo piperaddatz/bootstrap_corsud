@@ -1,0 +1,118 @@
+body {
+  background: #333;
+  color: #fff;
+}
+
+.navbar {
+  border-bottom: #027D35 3px solid;
+  opacity: 0.8;
+}
+
+#home-section {
+  background: url(../img/agriculture.jpg);
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+  text-align:center;
+}
+.centered {
+ 
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+#home-section .home-inner {
+  padding-top: 150px;
+}
+
+#home-section h2 {
+  font-size: 210%;
+}
+#home-section h4 {
+  font-size: 150%;
+}
+
+#home-section .card-form {
+  opacity: 0.8;
+}
+
+#home-section .fas,
+#create-section .fas {
+  color: #008ed6;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+
+#explore-section .fas,
+#share-section .fas {
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+.raya {
+  display: block; 
+  margin-top: 20px;
+  border-bottom: #027D35 2px solid;
+  width: 90px;
+  margin: 0 auto;
+}
+
+.sucursales {
+  font-size: 80%; 
+}
+
+
+
+.titulo {
+  color: #6C757D !important;
+}
+
+.repuesto_tractor {
+  background-color: #d8d7d7 !important;
+}
+
+.borde-marcas {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 90%;
+  margin-left: 5%;
+  box-shadow: 0 2px 2px #efefef;
+
+
+}
+
+.titulo-marca {
+  font-size: 120%;
+  color:  #6C757D;
+  border-bottom: 1px solid #6C757D;
+  padding-bottom: 8px;
+}
+
+
+.ultimo {
+  
+  text-align: right;
+}
+
+.crecer img:hover {
+  transform: scale(1.1);
+}
+.crecer img{
+  transition: all 0.3s ease 0s;
+}
+.crecer {
+  overflow: hidden;
+}
